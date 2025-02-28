@@ -1,0 +1,52 @@
+/* Style pour le body */
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Style pour le header */
+header {
+    background-color: #FFCC99;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-weight: bold;
+}
+
+/* Style pour la section principale */
+main {
+    background-color: #E6F2FF;
+    margin: 20px;
+    display: flex;
+}
+
+section{
+    margin : 20px;
+}
+
+/* Style pour la barre latérale */
+aside {
+    background-color: #B3D9FF;
+    flex: 1;
+    border: 1px solid #CCC;
+}
+
+/* Style pour la section principale */
+section {
+    flex: 3;
+}
+
+/* Style pour le footer */
+footer {
+    background-color: #99CC99;
+    border: 1px solid #CCC;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
